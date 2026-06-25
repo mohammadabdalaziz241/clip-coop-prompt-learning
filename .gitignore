@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables and credentials
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# Downloaded datasets
+data/
+datasets/
+
+# Training outputs
+checkpoints/
+models/
+outputs/
+runs/
+logs/
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.log
+*.tmp

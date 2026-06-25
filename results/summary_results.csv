@@ -1,0 +1,9 @@
+dataset,mean_accuracy
+Oxford Pets,88.92
+DTD,44.30
+EuroSAT,49.10
+Oxford Flowers,71.79
+Caltech-101,92.27
+Food-101,84.77
+UCF-101,63.29
+FGVC-Aircraft,24.41
