@@ -1,5 +1,9 @@
 # Prompt Tuning of Vision-Language Models with CLIP
 
+[![Python checks](https://github.com/mohammadabdalaziz241/clip-coop-prompt-learning/actions/workflows/python-checks.yml/badge.svg?branch=main)](https://github.com/mohammadabdalaziz241/clip-coop-prompt-learning/actions/workflows/python-checks.yml)
+
+[Results](#key-results) · [Run one experiment](#running-an-experiment) · [Ensembles](#evaluating-ensembles-and-model-soups) · [My contribution](#academic-context)
+
 Few-shot image classification using **Context Optimization (CoOp)** with a frozen CLIP ViT-B/16 backbone.
 
 This repository contains my implementation and experimental analysis of CoOp prompt learning across eight image-classification benchmarks. The study examines how labelled-data availability, prompt context length, random initialization, checkpoint ensembling, and weight-space Model Soups affect downstream performance.
@@ -117,7 +121,7 @@ clip-coop-prompt-learning/
 Clone the repository and create a virtual environment:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mohammadabdalaziz241/clip-coop-prompt-learning.git
 cd clip-coop-prompt-learning
 
 python3 -m venv .venv
@@ -128,6 +132,16 @@ pip install -r requirements.txt
 ```
 
 The project installs OpenAI CLIP directly from its GitHub repository.
+
+## Validation
+
+The [Python checks workflow](.github/workflows/python-checks.yml) compiles the source files on each push and pull request. Run the same syntax check locally:
+
+```bash
+python -m compileall -q src
+```
+
+This check validates Python syntax. It does not reproduce model accuracy or replace a training run; those require the datasets and checkpoints described below.
 
 ## Dataset Setup
 
