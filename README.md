@@ -257,3 +257,7 @@ The broader project evaluated additional adaptation approaches. This repository 
 * Huang et al., *Snapshot Ensembles: Train 1, Get M for Free*, ICLR 2017.
 * Wortsman et al., *Model Soups: Averaging Weights of Multiple Fine-Tuned Models Improves Accuracy Without Increasing Inference Time*, ICML 2022.
 
+
+## Licence
+
+Code: [Apache-2.0](LICENSE). CLIP is used under its MIT licence; the eight datasets are not redistributed and remain under their providers' terms. See [NOTICE](NOTICE).

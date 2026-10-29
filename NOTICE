@@ -1,0 +1,19 @@
+clip-coop-prompt-learning
+Copyright 2026 Mohammad Abdalaziz
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party software (installed as a dependency; not included here)
+-------------------------------------------------------------------
+- CLIP (OpenAI) - MIT License - https://github.com/openai/CLIP
+
+The prompt-learning method follows CoOp (Zhou et al., "Learning to Prompt for
+Vision-Language Models", IJCV 2022).
+
+Data
+----
+The eight datasets used (Oxford-IIIT Pets, Describable Textures Dataset,
+EuroSAT, Oxford Flowers-102, Food-101, Caltech-101, UCF-101 and FGVC-Aircraft)
+are not redistributed in this repository. Each is obtained from its original
+provider and is subject to that provider's terms. Learned prompt vectors
+released by this project are derived from these datasets.
